@@ -1,5 +1,6 @@
-import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import styles from './style'
+import { Community, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from './components'
+import Legacy from './components/Legacy'
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -14,20 +15,23 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+        <h2 className="text-white font-bold text-[44px] px-5 ">Our Goal</h2>
+
         <Stats />
         <Business />
-        <Billing />
+        <Community />
         <CardDeal />
+        <Legacy />
         <Testimonials />
-        <Clients />
+        {/* <Clients /> */}
         <CTA />
         <Footer />
       </div>
     </div>
   </div>
-);
+)
 
-export default App;
+export default App
