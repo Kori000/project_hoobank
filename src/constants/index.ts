@@ -175,12 +175,12 @@ export const socialMedia = [
   {
     id: 'social-media-1',
     icon: x,
-    link: 'https://www.x.com/',
+    link: 'https://twitter.com/RealmsBit',
   },
   {
     id: 'social-media-2',
     icon: telegram,
-    link: 'https://web.telegram.org/',
+    link: 'https://t.me/+mB1YE6AN6uFkYjEx',
   },
 ]
 
