@@ -27,8 +27,10 @@ import people02 from './people02.png'
 import people03 from './people03.png'
 import telegram from './telegram.svg'
 import x from './x.svg'
+import legacy from './legacy.png'
 
 export {
+  legacy,
   airbnb,
   bill,
   binance,
