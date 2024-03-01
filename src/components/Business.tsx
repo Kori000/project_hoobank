@@ -18,7 +18,7 @@ const FeatureCard = ({ icon, title, content, index }: any) => (
 )
 
 const Business = () => (
-  <section id="features" className={layout.section}>
+  <section id="expectations" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>What to expect?</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

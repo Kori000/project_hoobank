@@ -27,6 +27,7 @@
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "checkJs": false,
     "paths": {
       "~/*": [
         "./*"
@@ -35,5 +36,6 @@
         "./src/*"
       ]
     },
+    "baseUrl": "."
   },
 }

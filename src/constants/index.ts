@@ -1,21 +1,5 @@
-import {
-  people01,
-  people02,
-  people03,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
-  x,
-  telegram,
-} from '../assets'
+import { access, immortality, influence, ownership } from '@/assets/expectations'
+import { airbnb, binance, coinbase, dropbox, telegram, x } from '../assets'
 
 export const navLinks: {
   id: string
@@ -26,42 +10,42 @@ export const navLinks: {
     title: 'Home',
   },
   {
+    id: 'expectations',
+    title: 'Expectations',
+  },
+  {
     id: 'features',
     title: 'Features',
   },
   {
-    id: 'product',
-    title: 'Product',
-  },
-  {
-    id: 'clients',
-    title: 'Clients',
+    id: 'roadmap',
+    title: 'Roadmap',
   },
 ]
 
 export const features = [
   {
     id: 'feature-1',
-    icon: star,
+    icon: access,
     title: 'Access',
     content: 'Inscriptions are tickets to the BitRealms virtual world',
   },
   {
     id: 'feature-2',
-    icon: shield,
+    icon: ownership,
     title: 'Ownership',
     content: 'Players can participate in and own each game through inscriptions.',
   },
   {
     id: 'feature-3',
-    icon: send,
+    icon: immortality,
     title: 'Immortality',
     content: `The gaming platform will be eternally online, existing forever alongside 
     the Bitcoin blockchain.`,
   },
   {
     id: 'feature-4',
-    icon: send,
+    icon: influence,
     title: 'Influence',
     content: `Early participants on the gaming platform will have a full say in the 
     future development of the platform.`,
