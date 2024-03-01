@@ -3,14 +3,14 @@ import { Community, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Tes
 import Legacy from './components/Legacy'
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+  <div className="bg-primary w-full overflow-hidden relative ">
+    <div className={`${styles.paddingX} ${styles.flexCenter} fixed w-full z-10`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart} pt-[85px]`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
