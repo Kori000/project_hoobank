@@ -185,7 +185,7 @@ export const socialMedia = [
   {
     id: 'social-media-3',
     icon: whitepaper,
-    link: 'https://app.gitbook.com/invite/R7XH6zYD2Zl45VAYmtDG/dpCu26KF9uCcbdHh4Du9',
+    link: 'https://docs.bitrealms.ai/',
   },
 ]
 
