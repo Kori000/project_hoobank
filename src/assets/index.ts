@@ -28,6 +28,7 @@ import people03 from './people03.png'
 import telegram from './telegram.svg'
 import x from './x.svg'
 import legacy from './legacy.png'
+import whitepaper from './whitepaper.svg'
 
 export {
   legacy,
@@ -58,4 +59,5 @@ export {
   people03,
   x,
   telegram,
+  whitepaper,
 }

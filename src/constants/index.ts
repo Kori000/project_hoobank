@@ -1,5 +1,5 @@
 import { access, immortality, influence, ownership } from '@/assets/expectations'
-import { airbnb, binance, coinbase, dropbox, telegram, x } from '../assets'
+import { airbnb, binance, coinbase, dropbox, telegram, whitepaper, x } from '../assets'
 
 export const navLinks: {
   id: string
@@ -181,6 +181,11 @@ export const socialMedia = [
     id: 'social-media-2',
     icon: telegram,
     link: 'https://t.me/+mB1YE6AN6uFkYjEx',
+  },
+  {
+    id: 'social-media-3',
+    icon: whitepaper,
+    link: 'https://app.gitbook.com/invite/R7XH6zYD2Zl45VAYmtDG/dpCu26KF9uCcbdHh4Du9',
   },
 ]
 
