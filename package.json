@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tsc": "npx tsc"
+    "tsc": "npx tsc",
+    "publish": "tsc && vite build && tar -czvf bit_realms.tar.gz dist/ && scp bit_realms.tar.gz gcp_bit-relams:/data/web/bitrealms.ai/ && ssh gcp_bit-relams \"cd /data/web/bitrealms.ai/ && tar -xzvf bit_realms.tar.gz --strip 1\""
   },
   "dependencies": {
     "dayjs": "^1.11.10",
